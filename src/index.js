@@ -1,17 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import CustomCursor from "custom-cursor-react";
+import "custom-cursor-react/dist/index.css";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.scss";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <CustomCursor
+            dimensions={40}
+            fill="#FFF"
+            strokeWidth={3}
+            strokeColor="#8c8c8c"
+            smoothness={{
+                movement: 0.08,
+                scale: 0.9,
+                opacity: 0.2,
+            }}
+            targetOpacity={0.5}
+        />
+        <App />
+    </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

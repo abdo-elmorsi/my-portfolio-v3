@@ -1,0 +1,246 @@
+{
+    "personal_info": {
+        "name": "Abdo Elmorsy",
+        "title": "Front-end Developer",
+        "social": [
+            {
+                "name": "github",
+                "url": "https://github.com/Abdo2711-coder",
+                "class": "fab fa-github"
+            },
+            {
+                "name": "linkedIn",
+                "url": "https://www.linkedin.com/in/abdelrahman-elmorsy-163263205/",
+                "class": "fab fa-linkedin"
+            },
+            {
+                "name": "facebook",
+                "url": "https://www.facebook.com/profile.php?id=100011155869257",
+                "class": "fab fa-facebook"
+            }
+        ],
+        "image": "MyProfile.jpg"
+    },
+    "basic_info": {
+        "description_header": "Hi",
+        "description": "👋 I'm a Front End developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with ReactJs && NextJs, Take a look at my work. Thank you 💜",
+        "section_name": {
+            "about": "About me",
+            "projects": "Projects",
+            "skills": "Skills",
+            "experience": "Experience"
+        }
+    },
+    "skills": {
+        "icons": [
+            {
+                "name": "HTML 5",
+                "class": "devicon-html5-plain",
+                "level": "95"
+            },
+            {
+                "name": "CSS 3",
+                "class": "devicon-css3-plain",
+                "level": "95"
+            },
+            {
+                "name": "Sass",
+                "class": "devicon-sass-original",
+                "level": "75"
+            },
+            {
+                "name": "Bootstrap",
+                "class": "devicon-bootstrap-plain",
+                "level": "85"
+            },
+            {
+                "name": "JavaScript",
+                "class": "devicon-javascript-plain",
+                "level": "70"
+            },
+            {
+                "name": "Jquery",
+                "class": "devicon-jquery-plain",
+                "level": "60"
+            },
+            {
+                "name": "React Js",
+                "class": "devicon-react-plain",
+                "level": "80"
+            },
+            {
+                "name": "Redux",
+                "class": "devicon-redux-plain",
+                "level": "90"
+            },
+
+            {
+                "name": "Next Js",
+                "class": "devicon-nextjs-plain",
+                "level": "65"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "Safe Road",
+            "startDate": "2021",
+            "description": "It is a leading supplier of road safety solutions in Saudi. The Group offers a broad range of innovative and high-quality road safety solutions..",
+            "images": [
+                "images/portfolio/safe-road/p1.png",
+                "images/portfolio/safe-road/p2.png",
+                "images/portfolio/safe-road/p3.png",
+                "images/portfolio/safe-road/p4.png"
+            ],
+            "url": "https://saferoad.vercel.app",
+            "technologies": [
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React Js"
+                },
+                {
+                    "class": "devicon-redux-plain",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                },
+                {
+                    "class": "devicon-sass-plain",
+                    "name": "Scss"
+                }
+            ]
+        },
+        {
+            "title": "Adoodlz",
+            "startDate": "2021",
+            "description": "It is about managing tasks and users of the program in terms of accepting or rejecting tasks in addition to controlling the status of users.",
+            "images": [
+                "images/portfolio/adoodlz/p1.png",
+                "images/portfolio/adoodlz/p2.png",
+                "images/portfolio/adoodlz/p3.png",
+                "images/portfolio/adoodlz/p4.png",
+                "images/portfolio/adoodlz/p5.png",
+                "images/portfolio/adoodlz/p6.png"
+            ],
+            "url": "https://adoodlz.vercel.app/",
+            "technologies": [
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React Js"
+                },
+                {
+                    "class": "devicon-redux-plain",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                },
+                {
+                    "class": "devicon-sass-plain",
+                    "name": "Scss"
+                }
+            ]
+        },
+        {
+            "title": "Cold Chain",
+            "startDate": "2021",
+            "description": "It is an inventory management system to monitor the condition of the stores from temperature and humidity...",
+            "images": [
+                "images/portfolio/cold-chain/p1.png",
+                "images/portfolio/cold-chain/p2.png",
+                "images/portfolio/cold-chain/p3.png",
+                "images/portfolio/cold-chain/p4.png",
+                "images/portfolio/cold-chain/p5.png",
+                "images/portfolio/cold-chain/p6.png"
+            ],
+            "url": "https://cold-chain.vercel.app",
+            "technologies": [
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React Js"
+                },
+                {
+                    "class": "devicon-redux-plain",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                },
+                {
+                    "class": "devicon-sass-plain",
+                    "name": "Scss"
+                }
+            ]
+        },
+        {
+            "title": "Path Finder",
+            "startDate": "2022",
+            "description": ".",
+            "images": [
+                "images/portfolio/path-finder/p1.png",
+                "images/portfolio/path-finder/p2.png",
+                "images/portfolio/path-finder/p3.png",
+                "images/portfolio/path-finder/p4.png",
+                "images/portfolio/path-finder/p5.png",
+                "images/portfolio/path-finder/p6.png",
+                "images/portfolio/path-finder/p7.png",
+                "images/portfolio/path-finder/p8.png",
+                "images/portfolio/path-finder/p9.png",
+                "images/portfolio/path-finder/p10.png"
+            ],
+            "url": "https://path-finder-sc-1.vercel.app",
+            "technologies": [
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React Js"
+                },
+                {
+                    "class": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                }
+            ]
+        },
+        {
+            "title": "Pentab",
+            "startDate": "2021",
+            "description": "A landing page for a Saudi company.",
+            "images": [
+                "images/portfolio/pentab/p1.png",
+                "images/portfolio/pentab/p2.png",
+                "images/portfolio/pentab/p3.png",
+                "images/portfolio/pentab/p4.png"
+            ],
+            "url": "https://pentab.vercel.app",
+            "technologies": [
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "Html5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "Css3"
+                }
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "StartUp Defenders",
+            "url": "https://startupdefenders.com/ar/",
+            "title": "Front-end Developer",
+            "years": "05.2021 - 01.2022",
+            "mainTech": ["ReactJs"],
+            "technologies": [
+                "ReactJs",
+                "NextJs",
+                "Bootstrap4/5",
+                "JavaScript",
+                "Scss"
+            ]
+        }
+    ]
+}
