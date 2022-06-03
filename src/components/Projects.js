@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AnimatedText from "react-animated-text-content";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
 const Projects = ({ projects, basic_info }) => {
@@ -54,7 +55,21 @@ const Projects = ({ projects, basic_info }) => {
         <section id="portfolio">
             <div className="col-md-12">
                 <h1 className="section-title" style={{ color: "black" }}>
-                    <span>{sectionName}</span>
+                    <AnimatedText
+                        type="words"
+                        animation={{
+                            x: "200px",
+                            y: "-20px",
+                            scale: 1.1,
+                            ease: "ease-in-out",
+                        }}
+                        className="animated-paragraph"
+                        animationType="throw"
+                        duration={0.8}
+                        tag="span"
+                    >
+                        {sectionName}
+                    </AnimatedText>
                 </h1>
                 <div className="col-md-12 mx-auto">
                     <div className="row mx-auto">{Projects}</div>

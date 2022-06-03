@@ -2,6 +2,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import reactIcon from "@iconify/icons-logos/react";
 import nextIcon from "@iconify/icons-logos/nextjs";
+import AnimatedText from "react-animated-text-content";
 
 const About = ({ Image, basic_info }) => {
     var profilepic = "images/" + Image;
@@ -13,7 +14,21 @@ const About = ({ Image, basic_info }) => {
         <section id="about">
             <div className="col-md-12">
                 <h1 style={{ color: "black" }}>
-                    <span>{sectionName}</span>
+                    <AnimatedText
+                        type="words"
+                        animation={{
+                            x: "200px",
+                            y: "-20px",
+                            scale: 1.1,
+                            ease: "ease-in-out",
+                        }}
+                        className="animated-paragraph"
+                        animationType="throw"
+                        duration={0.8}
+                        tag="span"
+                    >
+                        {sectionName}
+                    </AnimatedText>
                 </h1>
                 <div className="row center mx-auto mb-5">
                     <div className="col-md-4 mb-5 center">

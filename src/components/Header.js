@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Typical from "react-typical";
+import AnimatedText from "react-animated-text-content";
 import Switch from "react-switch";
 const Header = ({ personal_info }) => {
     const name = personal_info?.name;
@@ -33,14 +33,38 @@ const Header = ({ personal_info }) => {
                         ></span>
                         <br />
                         <h1 className="mb-0">
-                            <Typical steps={[name]} wrapper="p" />
+                            <AnimatedText
+                                type="words"
+                                animation={{
+                                    x: "200px",
+                                    y: "-20px",
+                                    scale: 1.1,
+                                    ease: "ease-in-out",
+                                }}
+                                className="animated-paragraph"
+                                animationType="float"
+                                tag="p"
+                            >
+                                {name}
+                            </AnimatedText>
                         </h1>
                         <div className="title-container">
-                            <Typical
-                                className="title-styles"
-                                steps={[title]}
-                                wrapper="p"
-                            />
+                            <AnimatedText
+                                type="chart"
+                                animation={{
+                                    x: "200px",
+                                    y: "-20px",
+                                    scale: 1.1,
+                                    ease: "ease-in-out",
+                                }}
+                                className="animated-paragraph title-styles"
+                                animationType="rifle"
+                                duration={1}
+                                tag="p"
+                        
+                            >
+                                {title}
+                            </AnimatedText>
                         </div>
                         <Switch
                             checked={checked}

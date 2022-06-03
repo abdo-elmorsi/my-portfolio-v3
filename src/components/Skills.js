@@ -1,4 +1,5 @@
 import React from "react";
+import AnimatedText from "react-animated-text-content";
 
 const Skills = ({ basic_info, skills }) => {
     if (basic_info && skills) {
@@ -34,7 +35,21 @@ const Skills = ({ basic_info, skills }) => {
             <div className="col-md-12">
                 <div className="col-md-12">
                     <h1 className="section-title">
-                        <span className="text-white">{sectionName}</span>
+                        <AnimatedText
+                            type="words"
+                            animation={{
+                                x: "200px",
+                                y: "-20px",
+                                scale: 1.1,
+                                ease: "ease-in-out",
+                            }}
+                            className="animated-paragraph"
+                            animationType="throw"
+                            duration={0.8}
+                            tag="span"
+                        >
+                            {sectionName}
+                        </AnimatedText>
                     </h1>
                 </div>
                 <div className="col-md-12 text-center">

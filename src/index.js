@@ -1,28 +1,28 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import App from "./App";
 
-import CustomCursor from "custom-cursor-react";
-import "custom-cursor-react/dist/index.css";
+import AnimatedCursor from "react-animated-cursor";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.scss";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+ReactDOM.render(
     <React.StrictMode>
-        <CustomCursor
-            dimensions={40}
-            fill="#FFF"
-            strokeWidth={3}
-            strokeColor="#8c8c8c"
-            smoothness={{
-                movement: 0.08,
-                scale: 0.9,
-                opacity: 0.2,
+        <AnimatedCursor
+            className="Cursor"
+            innerSize={20}
+            outerSize={15}
+            color="222, 222, 222"
+            outerAlpha={0.8}
+            innerScale={0.1}
+            outerScale={4}
+            outerStyle={{
+                zIndex: "1056",
             }}
-            targetOpacity={0.5}
+            clickables={["a", "button", ".link"]}
         />
         <App />
-    </React.StrictMode>
+    </React.StrictMode>,
+    document.getElementById("root")
 );

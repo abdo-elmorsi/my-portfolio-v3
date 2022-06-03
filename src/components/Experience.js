@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { Badge } from "react-bootstrap";
+import AnimatedText from "react-animated-text-content";
 
 const Experience = ({ experience, basic_info }) => {
     if (experience && basic_info) {
@@ -36,7 +37,9 @@ const Experience = ({ experience, basic_info }) => {
                         color: "#fff",
                         textAlign: "center",
                     }}
-                    icon={<i className="fab fa-react experience-icon rotate"></i>}
+                    icon={
+                        <i className="fab fa-react experience-icon rotate"></i>
+                    }
                     key={i}
                 >
                     <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -70,12 +73,21 @@ const Experience = ({ experience, basic_info }) => {
             <div className="col-md-12 mx-auto">
                 <div className="col-md-12">
                     <h1 className="section-title" style={{ color: "black" }}>
-                        <span
-                            className="text-black"
-                            style={{ textAlign: "center" }}
+                        <AnimatedText
+                            type="words"
+                            animation={{
+                                x: "200px",
+                                y: "-20px",
+                                scale: 1.1,
+                                ease: "ease-in-out",
+                            }}
+                            className="animated-paragraph"
+                            animationType="throw"
+                            duration={0.8}
+                            tag="span"
                         >
                             {sectionName}
-                        </span>
+                        </AnimatedText>
                     </h1>
                 </div>
             </div>
