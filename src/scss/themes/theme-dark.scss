@@ -1,9 +1,16 @@
 body[data-theme="dark"] {
     @import "../dark-slider.scss";
-
     .slider-tab {
         background-color: #8c8c8c;
     }
+    // scroll to tp
+    .progress-wrap svg.iconify {
+        color: #d7caaa;
+    }
+    .progress-wrap svg.progress-circle path {
+        stroke: #d7caaa;
+    }
+    //    *************    //
 
     .title-styles {
         color: white;
