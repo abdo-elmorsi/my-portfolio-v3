@@ -45,7 +45,7 @@ const Skills = ({ basic_info, skills }) => {
                             }}
                             className="animated-paragraph"
                             animationType="throw"
-                            duration={0.8}
+                            duration={1}
                             tag="span"
                         >
                             {sectionName}

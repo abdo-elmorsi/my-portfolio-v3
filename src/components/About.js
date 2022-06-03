@@ -24,7 +24,7 @@ const About = ({ Image, basic_info }) => {
                         }}
                         className="animated-paragraph"
                         animationType="throw"
-                        duration={0.8}
+                        duration={1}
                         tag="span"
                     >
                         {sectionName}
