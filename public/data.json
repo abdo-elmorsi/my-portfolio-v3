@@ -85,7 +85,7 @@
         {
             "title": "Safe Road",
             "startDate": "2021",
-            "description": "It is a leading supplier of road safety solutions in Saudi. The Group offers a broad range of innovative and high-quality road safety solutions..",
+            "description": "It is a leading supplier of road safety solutions in Saudi. The Group offers a broad range of innovative and high-quality road safety solutions.",
             "images": [
                 "images/portfolio/safe-road/p1.png",
                 "images/portfolio/safe-road/p2.png",
@@ -94,6 +94,14 @@
             ],
             "url": "https://saferoad.vercel.app",
             "technologies": [
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "Html5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "Css3"
+                },
                 {
                     "class": "devicon-react-plain",
                     "name": "React Js"
@@ -127,6 +135,14 @@
             "url": "https://adoodlz.vercel.app/",
             "technologies": [
                 {
+                    "class": "devicon-html5-plain",
+                    "name": "Html5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "Css3"
+                },
+                {
                     "class": "devicon-react-plain",
                     "name": "React Js"
                 },
@@ -159,6 +175,14 @@
             "url": "https://cold-chain.vercel.app",
             "technologies": [
                 {
+                    "class": "devicon-html5-plain",
+                    "name": "Html5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "Css3"
+                },
+                {
                     "class": "devicon-react-plain",
                     "name": "React Js"
                 },
@@ -177,9 +201,43 @@
             ]
         },
         {
+            "title": "Souk",
+            "startDate": "2021",
+            "description": "It is a multi-seller e-commerce website that offers customers a wide range of products and services.",
+            "images": [
+                "images/portfolio/souk/p1.png",
+                "images/portfolio/souk/p2.png",
+                "images/portfolio/souk/p3.png"
+            ],
+            "url": "https://souk.vercel.app",
+            "technologies": [
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "Html5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "Css3"
+                },
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React Js"
+                },
+                {
+                    "class": "devicon-redux-plain",
+                    "name": "Redux"
+                },
+
+                {
+                    "class": "devicon-tailwindcss-plain",
+                    "name": "Tailwind Css"
+                }
+            ]
+        },
+        {
             "title": "Path Finder",
             "startDate": "2022",
-            "description": ".",
+            "description": "It is a robot to discover what are Underground paths, by drawing map by ai and displaying the toxic air under the path.",
             "images": [
                 "images/portfolio/path-finder/p1.png",
                 "images/portfolio/path-finder/p2.png",
@@ -194,6 +252,14 @@
             ],
             "url": "https://path-finder-sc-1.vercel.app",
             "technologies": [
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "Html5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "Css3"
+                },
                 {
                     "class": "devicon-react-plain",
                     "name": "React Js"
@@ -223,6 +289,31 @@
                 {
                     "class": "devicon-css3-plain",
                     "name": "Css3"
+                }
+            ]
+        },
+        {
+            "title": "Quiz App",
+            "startDate": "2021",
+            "description": "It is a quiz app that offers users a wide range of questions and answers.",
+            "images": ["images/portfolio/quiz/p1.png"],
+            "url": "https://abdo-div.vercel.app/-/apps/quiz-app/index.html",
+            "technologies": [
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "Html5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "Css3"
+                },
+                {
+                    "class": "devicon-javascript-plain",
+                    "name": "Javascript"
+                },
+                {
+                    "class": "devicon-jquery-plain",
+                    "name": "Jquery"
                 }
             ]
         }
