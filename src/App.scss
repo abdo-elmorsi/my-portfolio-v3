@@ -76,7 +76,7 @@ html {
 
 .Cursor {
     position: relative !important;
-    z-index: 1100 !important;
+    z-index: 1501 !important;
 }
 
 .aligner {
@@ -149,6 +149,10 @@ header h1 {
 
 .slider-image {
     border: 5px solid #d7caaa;
+}
+.slider-title {
+    padding: 5px 5px 0px 5px;
+    text-transform: capitalize;
 }
 
 .slider-tab {

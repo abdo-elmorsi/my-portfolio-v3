@@ -83,7 +83,52 @@
     },
     "projects": [
         {
-            "title": "Safe Road",
+            "title": "english-stu",
+            "startDate": "2022",
+            "description": "Free online resources for learning English 🇬🇧🇺🇸 or teaching it. From easy guides to grammar to fun games and quizzes for learning English.",
+            "images": [
+                "images/portfolio/EnglishStu/p1.png",
+                "images/portfolio/EnglishStu/p2.png",
+                "images/portfolio/EnglishStu/p3.png",
+                "images/portfolio/EnglishStu/p4.png",
+                "images/portfolio/EnglishStu/p5.png",
+                "images/portfolio/EnglishStu/p6.png",
+                "images/portfolio/EnglishStu/p7.png"
+            ],
+            "url": "https://englishstu.vercel.app",
+            "technologies": [
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "Html5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "Css3"
+                },
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React Js"
+                },
+                {
+                    "class": "devicon-nextjs-plain",
+                    "name": "Next Js"
+                },
+                {
+                    "class": "devicon-redux-plain",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                },
+                {
+                    "class": "devicon-sass-plain",
+                    "name": "Scss"
+                }
+            ]
+        },
+        {
+            "title": "safe-road",
             "startDate": "2021",
             "description": "It is a leading supplier of road safety solutions in Saudi. The Group offers a broad range of innovative and high-quality road safety solutions.",
             "images": [
@@ -121,7 +166,7 @@
             ]
         },
         {
-            "title": "Adoodlz",
+            "title": "adoodlz",
             "startDate": "2021",
             "description": "It is about managing tasks and users of the program in terms of accepting or rejecting tasks in addition to controlling the status of users.",
             "images": [
@@ -161,7 +206,7 @@
             ]
         },
         {
-            "title": "Cold Chain",
+            "title": "cold-chain",
             "startDate": "2021",
             "description": "It is an inventory management system to monitor the condition of the stores from temperature and humidity...",
             "images": [
@@ -201,7 +246,7 @@
             ]
         },
         {
-            "title": "Souk",
+            "title": "souk",
             "startDate": "2021",
             "description": "It is a multi-seller e-commerce website that offers customers a wide range of products and services.",
             "images": [
@@ -235,7 +280,7 @@
             ]
         },
         {
-            "title": "Path Finder",
+            "title": "path-finder",
             "startDate": "2022",
             "description": "It is a robot to discover what are Underground paths, by drawing map by ai and displaying the toxic air under the path.",
             "images": [
@@ -271,7 +316,7 @@
             ]
         },
         {
-            "title": "Pentab",
+            "title": "pentab",
             "startDate": "2021",
             "description": "A landing page for a Saudi company.",
             "images": [
@@ -293,7 +338,7 @@
             ]
         },
         {
-            "title": "Quiz App",
+            "title": "quiz-app",
             "startDate": "2021",
             "description": "It is a quiz app that offers users a wide range of questions and answers.",
             "images": ["images/portfolio/quiz/p1.png"],

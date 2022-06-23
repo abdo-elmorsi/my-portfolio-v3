@@ -85,7 +85,7 @@ const ProjectDetailsModal = (props) => {
                     </AwesomeSlider>
                 </div>
                 <div className="col-md-10 mx-auto">
-                    <h3 style={{ padding: "5px 5px 0 5px" }}>
+                    <h3 className="slider-title">
                         {title}
                         {url ? (
                             <a

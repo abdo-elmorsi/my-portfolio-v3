@@ -20,7 +20,11 @@ const Projects = ({ projects, basic_info }) => {
                     key={project.title}
                     style={{ cursor: "pointer" }}
                 >
-                    <span className="portfolio-item d-block">
+                    <span
+                        className={`portfolio-item d-block ${
+                            project?.star && "star"
+                        }`}
+                    >
                         <div
                             className="foto"
                             onClick={() => detailsModalShow(project)}
