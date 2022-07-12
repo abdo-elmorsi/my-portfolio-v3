@@ -62,24 +62,41 @@ const About = ({ Image, basic_info }) => {
                     <div className="col-md-8 center">
                         <div className="col-md-10">
                             <div className="card">
-                                <div className="card-header">
-                                    <span
-                                        className="iconify"
-                                        data-icon="emojione:red-circle"
-                                        data-inline="false"
-                                    ></span>{" "}
-                                    &nbsp;{" "}
-                                    <span
-                                        className="iconify"
-                                        data-icon="twemoji:yellow-circle"
-                                        data-inline="false"
-                                    ></span>{" "}
-                                    &nbsp;{" "}
-                                    <span
-                                        className="iconify"
-                                        data-icon="twemoji:green-circle"
-                                        data-inline="false"
-                                    ></span>
+                                <div className="card-header d-flex justify-content-between">
+                                    <div>
+                                        <span
+                                            className="iconify"
+                                            data-icon="emojione:red-circle"
+                                            data-inline="false"
+                                        ></span>{" "}
+                                        &nbsp;{" "}
+                                        <span
+                                            className="iconify"
+                                            data-icon="twemoji:yellow-circle"
+                                            data-inline="false"
+                                        ></span>{" "}
+                                        &nbsp;{" "}
+                                        <span
+                                            className="iconify"
+                                            data-icon="twemoji:green-circle"
+                                            data-inline="false"
+                                        ></span>
+                                    </div>
+                                    <div>
+                                        <a
+                                            className="px-2"
+                                            title="Download My Cv"
+                                            href="/Abdelrahman_Elmorsy.pdf"
+                                            download
+                                        >
+                                            <img
+                                                width={"25px"}
+                                                height="20px"
+                                                src="/images/download.svg"
+                                                alt="Download My Cv"
+                                            />
+                                        </a>
+                                    </div>
                                 </div>
                                 <div
                                     className="card-body font-trebuchet text-justify ml-3 mr-3"

@@ -1,7 +1,7 @@
 {
     "personal_info": {
         "name": "Abdo Elmorsy",
-        "title": "Front-end Developer",
+        "title": "Front End Developer",
         "social": [
             {
                 "name": "github",
@@ -54,6 +54,12 @@
                 "level": "85"
             },
             {
+                "name": "Tailwind.Css",
+                "class": "devicon-tailwindcss-plain",
+                "level": "85"
+            },
+            
+            {
                 "name": "JavaScript",
                 "class": "devicon-javascript-plain",
                 "level": "70"
@@ -73,10 +79,14 @@
                 "class": "devicon-redux-plain",
                 "level": "90"
             },
-
             {
                 "name": "Next Js",
                 "class": "devicon-nextjs-plain",
+                "level": "65"
+            },
+            {
+                "name": "Firebase",
+                "class": "devicon-firebase-plain",
                 "level": "65"
             }
         ]
@@ -367,13 +377,28 @@
         {
             "company": "StartUp Defenders",
             "url": "https://startupdefenders.com/ar/",
-            "title": "Front-end Developer",
+            "title": "Front End Developer",
             "years": "05.2021 - 01.2022",
             "mainTech": ["ReactJs"],
             "technologies": [
                 "ReactJs",
                 "NextJs",
                 "Bootstrap4/5",
+                "JavaScript",
+                "Scss"
+            ]
+        },
+        {
+            "company": "StartUp Defenders",
+            "url": "https://startupdefenders.com/ar/",
+            "title": "Front End Developer",
+            "years": "07.2022 - present",
+            "mainTech": ["NextJs"],
+            "technologies": [
+                "ReactJs",
+                "NextJs",
+                "Bootstrap4/5",
+                "Material-UI",
                 "JavaScript",
                 "Scss"
             ]
