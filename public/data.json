@@ -147,7 +147,7 @@
                 "images/portfolio/safe-road/p3.png",
                 "images/portfolio/safe-road/p4.png"
             ],
-            "url": "https://saferoad.vercel.app",
+            "url": "",
             "technologies": [
                 {
                     "class": "devicon-html5-plain",
@@ -187,7 +187,7 @@
                 "images/portfolio/adoodlz/p5.png",
                 "images/portfolio/adoodlz/p6.png"
             ],
-            "url": "https://adoodlz.vercel.app/",
+            "url": "",
             "technologies": [
                 {
                     "class": "devicon-html5-plain",
@@ -227,7 +227,7 @@
                 "images/portfolio/cold-chain/p5.png",
                 "images/portfolio/cold-chain/p6.png"
             ],
-            "url": "https://cold-chain.vercel.app",
+            "url": "",
             "technologies": [
                 {
                     "class": "devicon-html5-plain",
