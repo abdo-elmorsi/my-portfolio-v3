@@ -38,7 +38,7 @@ const Experience = ({ experience, basic_info }) => {
                         textAlign: "center",
                     }}
                     icon={
-                        <i className="fab fa-react experience-icon rotate"></i>
+                        <i className={`fab fa-react experience-icon ${work.years?.includes("present") ? "rotate" : ""}`}></i>
                     }
                     key={i}
                 >

@@ -1,7 +1,7 @@
 {
     "personal_info": {
         "name": "Abdo Elmorsy",
-        "title": "Front End Developer",
+        "title": "Front-end Developer",
         "social": [
             {
                 "name": "github",
@@ -58,7 +58,7 @@
                 "class": "devicon-tailwindcss-plain",
                 "level": "85"
             },
-            
+
             {
                 "name": "JavaScript",
                 "class": "devicon-javascript-plain",
@@ -92,6 +92,39 @@
         ]
     },
     "projects": [
+        {
+            "title": "Infinity-Jew",
+            "startDate": "2022",
+            "description": "Infinity is an ERP system that supports the Arabic language for managing gold and jewelry stores. It supports the application of the first phase of issuing the electronic invoice, in its two forms, the tax invoice and the simplified tax invoice. And you can follow up on the general sales of products and gold jewelry by piece and weight in addition to following up the sales of each seller separately, following up your stock of products, displaying stock value reports and inventory reports, and issuing profit and loss reports to know how well your business is performing each period of time.",
+            "images": ["images/portfolio/infinity/p1.png"],
+            "url": "https://erp.infinity-jew.com/",
+            "technologies": [
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "Html5"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "Css3"
+                },
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React Js"
+                },
+                {
+                    "class": "devicon-redux-plain",
+                    "name": "Redux"
+                },
+                {
+                    "class": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                },
+                {
+                    "class": "devicon-less-plain-wordmark",
+                    "name": "Less"
+                }
+            ]
+        },
         {
             "title": "english-stu",
             "startDate": "2022",
@@ -144,8 +177,7 @@
             "images": [
                 "images/portfolio/safe-road/p1.png",
                 "images/portfolio/safe-road/p2.png",
-                "images/portfolio/safe-road/p3.png",
-                "images/portfolio/safe-road/p4.png"
+                "images/portfolio/safe-road/p3.png"
             ],
             "url": "",
             "technologies": [
@@ -222,10 +254,7 @@
             "images": [
                 "images/portfolio/cold-chain/p1.png",
                 "images/portfolio/cold-chain/p2.png",
-                "images/portfolio/cold-chain/p3.png",
-                "images/portfolio/cold-chain/p4.png",
-                "images/portfolio/cold-chain/p5.png",
-                "images/portfolio/cold-chain/p6.png"
+                "images/portfolio/cold-chain/p3.png"
             ],
             "url": "",
             "technologies": [
@@ -377,9 +406,9 @@
         {
             "company": "StartUp Defenders",
             "url": "https://startupdefenders.com/ar/",
-            "title": "Front End Developer",
-            "years": "05.2021 - 01.2022",
-            "mainTech": ["ReactJs"],
+            "title": "Front End Developer: (full-time)",
+            "years": "05.2021 - 11.2022",
+            "mainTech": ["ReactJs", "NextJs"],
             "technologies": [
                 "ReactJs",
                 "NextJs",
@@ -389,19 +418,12 @@
             ]
         },
         {
-            "company": "StartUp Defenders",
-            "url": "https://startupdefenders.com/ar/",
-            "title": "Front End Developer",
+            "company": "Infinity",
+            "url": "https://infinity-jew.vercel.app/",
+            "title": "Front End Developer: (part-time)",
             "years": "07.2022 - present",
-            "mainTech": ["NextJs"],
-            "technologies": [
-                "ReactJs",
-                "NextJs",
-                "Bootstrap4/5",
-                "Material-UI",
-                "JavaScript",
-                "Scss"
-            ]
+            "mainTech": ["ReactJs"],
+            "technologies": ["ReactJs", "Bootstrap4/5", "JavaScript", "Less"]
         }
     ]
 }

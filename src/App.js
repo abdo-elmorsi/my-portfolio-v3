@@ -23,26 +23,19 @@ export default function App() {
                 });
         })();
     }, []);
-
     useEffect(() => {
-        const progressPath = document.querySelector(".progress-wrap path");
+        const progressPath = document.querySelector(
+            ".progress-wrap .progress-circle path"
+        );
         const pathLength = progressPath.getTotalLength();
-        progressPath.style.transition = progressPath.style.WebkitTransition =
-            "none";
         progressPath.style.strokeDasharray = pathLength + " " + pathLength;
-        progressPath.style.strokeDashoffset = pathLength;
-        progressPath.getBoundingClientRect();
-        progressPath.style.transition = progressPath.style.WebkitTransition =
-            "stroke-dashoffset 10ms linear";
-
         const updateProgress = function () {
             const scroll = window.pageYOffset;
             const height =
                 document.documentElement.offsetHeight - window.innerHeight;
             const progress = pathLength - (scroll * pathLength) / height;
             progressPath.style.strokeDashoffset = progress;
-
-            if (scroll > 150) {
+            if (scroll > 250) {
                 document
                     .querySelector(".progress-wrap")
                     .classList.add("active-progress");
